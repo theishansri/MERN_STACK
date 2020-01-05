@@ -4,11 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "client-install":"npm install --prefix frontend",
+    "client-install": "npm install --prefix frontend",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "client":"npm start --prefix frontend",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
@@ -17,7 +17,8 @@
     "concurrently": "^5.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.8.3"
+    "mongoose": "^5.8.3",
+    "serialize-javascript": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
